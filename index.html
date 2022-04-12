@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500;600&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+
+ 
+</head>
+<body>
+    <section id="top" class="scor-box">  
+      <img src="images/logo.svg" alt="logo">
+      <div class="scor">
+        SCORE
+        <h1 id="curr-scor">0</h1>
+      </div>
+
+    </section>
+
+    <section class="middle" id="game-play">
+        <img src="images/icon-paper.svg" alt="paper" class="choose mg paper" id="paper" >
+        <img src="images/icon-scissors.svg" alt="scissors" class="choose mg scissors" id="scissors" >
+        <img src="images/icon-rock.svg" alt="rock" class="choose mg rock" id="rock" >
+     
+    </section>
+
+    <section id="progress" class="middle-2">
+      <div id="UserChoose">
+        <h3>You Picked</h3>
+        <img src="" alt="pro-img" class=" pro-img choose ">
+      </div>
+      <div id="result" class=" result-box">
+        <h2 id="result-value">You win</h2>
+        <button id="play-again">Play again</button>
+      </div>
+      <div id="RandomChoose">
+        <h3>The House Picked</h3>
+        <!-- <img src="images/icon-paper.svg" alt="pro-img" class=" pro-img choose paper"> -->
+        <img src="" alt="pro-img" id="rndImg" class="pro-img choose">
+        <div class="enonmous"></div>
+        
+      </div>
+    </section>
+  
+    <h2 id="rules">Rules</h2>
+   
+    <div class="active-rules">
+      <div class="flex-active-rules">
+        <h2>Rules</h2>
+        <img src="images/icon-close.svg" alt="close" id="Close-rules">
+      </div>
+      <img src="images/image-rules.svg" alt="rules">
+    </div>
+
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ganesh Rathor</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
